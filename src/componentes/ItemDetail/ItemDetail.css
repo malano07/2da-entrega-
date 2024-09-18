@@ -1,0 +1,81 @@
+/* Contenedor principal */
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+  }
+  
+  /* Logo */
+  div > img:first-child {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor del producto */
+  .div1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Imagen del producto */
+  .div1 img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease; /* Animación al hacer hover */
+  }
+  
+  .div1 img:hover {
+    transform: scale(2.5); /* Agrandar la imagen en hover */
+  }
+  
+  /* Descripción del producto */
+  .div1 h2 {
+    font-size: 28px;
+    color: #1d1d1d;
+    margin: 20px 0 10px;
+  }
+  
+  .div1 p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Botón Comprar */
+  .div1 button {
+    padding: 12px 30px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .div1 button:hover {
+    background-color: #f96d00;
+  }

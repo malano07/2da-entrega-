@@ -1,0 +1,6 @@
+body {
+    font-family: 'Graduate';
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

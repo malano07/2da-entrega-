@@ -1,0 +1,133 @@
+
+.div-prod-check1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid black;
+    width: 100%;
+    justify-content: space-around;
+
+    img{
+        width: 100px;
+    }
+}
+
+.div-prod-check{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    border: solid black;
+    width: 100%;
+    justify-content: space-around;
+
+    img{
+        width: 100px;
+    }
+
+    p{
+        color: black;
+        font-size: 0.7rem;
+    }
+
+
+}
+.div-orden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 5px;
+    border-radius: 15px;
+    width: 50%;
+
+    img{
+        width: 100px;
+    }
+}
+.prod-check-derecho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.orden-text{
+    color:black;
+    background-color: rgb(231, 194, 194);
+    border: black solid;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.div-inputs{
+    width: 100%;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.div-inputs-2{
+    width: 90%;
+    padding: 5px;
+
+    
+}
+
+.div-inputs-2 label,input{
+    width: 100%;
+    margin: 5px;
+}
+
+p{
+    color: black;
+    
+}
+
+.p-check{
+    text-align: left;
+    
+    width: 100%;
+    margin-top: 10px;
+}
+
+.botones-checkout2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botones-checkout2 button{
+    width: 200px;
+    font-family: graduate;
+    margin-bottom: 20px;
+}
+
+.div-radios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.radios{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}

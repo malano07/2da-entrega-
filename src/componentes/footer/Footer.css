@@ -1,0 +1,107 @@
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  bottom: 0;
+  left: 0; 
+  z-index: 1000; 
+    
+  }
+
+  .img-footer{
+    width: 10%;
+  }
+
+  .h3-suscribir{
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .div-botonsuscribir{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 5px;
+   gap: 10px; 
+  }
+
+  .div-botonsuscribir button{
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; 
+    display: flex;
+    align-items: center;
+
+  }
+
+  .div-botonsuscribir button:hover{
+    background-color: black;
+    
+  
+  }
+
+  .div-botonsuscribir input{
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px; 
+  font-size: 1rem;
+  width: 70%;
+  }
+
+  
+  
+  
+  .suscripcion-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;   
+  }
+
+  
+
+
+  
+  .parrafos-div {
+    text-align: center;
+  }
+  
+  .parrafos-div h4, .parrafos-div h5 {
+    margin: 5px 0;
+  }
+  
+  .div-logos {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .div-logos button {
+    
+    color: white;
+    background-color: #000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 2rem;
+  }
+  
+  .div-logos button:hover{
+    color: darkorange;
+  }
+  
+  

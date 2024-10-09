@@ -1,6 +1,19 @@
 
 /* Header */
+
+@keyframes rotar {
+  from {
+    rotate: 359deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}
+
 header {
+  
+  width: 100%;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,12 +21,15 @@ header {
   background-color: #1d1d1d;
   color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1280px;
+  border-radius: 0 0 20px 20px;
 }
 
 /* Logo */
-header img {
-  height: auto;
-  width: 400px; /* Aumentar tamaño de la imagen */
+header .img-nav {
+  width: 100px;
+  
+  animation: rotar 3s ease-in-out infinite;
 }
 
 /* Nav styles */
@@ -32,14 +48,14 @@ nav ul li {
   font-size: 18px;
   color: white;
   cursor: pointer;
-  text-decoration: none; /* Eliminar línea de decoración */
+  text-decoration: none; 
 }
 
 nav ul li:hover {
-  color: #ff8c00; /* Color deportivo para hover */
+  color: #ff8c00; 
 }
 
-/* Cart widget (opcional, depende del componente) */
+
 .CartWidget {
   background-color: #ff8c00;
   padding: 10px;
@@ -50,11 +66,29 @@ nav ul li:hover {
   cursor: pointer;
 }
 
-/* Alinear el CartWidget a la izquierda */
+
 header .CartWidget {
-  margin-right: auto; /* Para empujarlo hacia la izquierda */
+  margin-right: auto; 
 }
 
 .CartWidget:hover {
   background-color: #f96d00;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+  }
+
+  nav{
+    max-width: 100%;
+  }
+
+  header .CartWidget {
+    display: none;
+  }
+  
 }

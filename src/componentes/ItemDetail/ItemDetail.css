@@ -1,81 +1,62 @@
-/* Contenedor principal */
-.div2 {
+
+.contenedor_producto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    border: 5px solid orange;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px ;
+    box-shadow: 20px;
+    background-color: bisque;
+}
+
+.contenedor_img{
+    width: 50%;
+    align-items: center;
+       
+}
+
+.contenedor_detalles{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    width: 50%;
+
+    p{
+        color: black;
+    }
+}
+
+
+
+.contenedor_detalles button:hover{
+    color:black;
+}
+
+.contenedor_img img{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 36px;
-    color: #1d1d1d;
-    margin-bottom: 20px;
-  }
-  
-  /* Logo */
-  div > img:first-child {
-    width: 100px;
     height: auto;
-    margin-bottom: 20px;
-  }
-  
-  /* Contenedor del producto */
-  .div1 {
-    position: relative;
+}
+
+.contenedor_img img:hover{
+    scale: 1.1;
+    transition: 500ms;
+}
+
+.button-itemdetail{
+    font-family: graduate;
+    text-decoration: none;
+    color: black;
+}
+
+.div-botones-itemdetail{
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
-  }
-  
-  /* Imagen del producto */
-  .div1 img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.4s ease; /* Animación al hacer hover */
-  }
-  
-  .div1 img:hover {
-    transform: scale(2.5); /* Agrandar la imagen en hover */
-  }
-  
-  /* Descripción del producto */
-  .div1 h2 {
-    font-size: 28px;
-    color: #1d1d1d;
-    margin: 20px 0 10px;
-  }
-  
-  .div1 p {
-    font-size: 18px;
-    color: #555;
-    margin: 5px 0;
-  }
-  
-  /* Botón Comprar */
-  .div1 button {
-    padding: 12px 30px;
-    background-color: #ff8c00;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .div1 button:hover {
-    background-color: #f96d00;
-  }
+    flex-direction: row;
+    gap: 5px;
+
+}

@@ -1,34 +1,52 @@
 
 .item-cont {
+    
     display: flex;
-    flex-direction: column;
-    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    background-color:beige;
     border: 2px solid #ff8c00;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    height: 250px;
     text-align: center;
     padding: 5px;
     transition: transform 0.3s ease;
+    margin: 5px;
+      
   }
   
-  .item-cont img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #ff8c00;
-  }
-  
-  .item-cont:hover {
-    transform: scale(1.10);
-  }
-  
-  .div-derecho {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
+  .img-producto {
+    width: 50%;
     
   }
+
+  .imgProductoItem{
+    width: 100%;
+  }
+  
+  
+  
+  .div-derecho {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+
+    p{
+      color: #1d1d1d;
+    }
+
+    button{
+      font-family: 'Graduate';
+    }
+    
+    
+    
+  }
+
+  
   
   h3 {
     color: #1d1d1d;
@@ -43,6 +61,7 @@
   
   button {
     padding: 10px 20px;
+    margin-bottom: 5px;
     background-color: #ff8c00;
     color: white;
     border: none;

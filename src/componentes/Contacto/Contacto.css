@@ -1,0 +1,40 @@
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    width: 50%;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+
+    img{
+        width: 20%;
+    }
+}
+
+.contenedor_form{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    button{
+        margin-top: 20px;
+        font-family: graduate;
+    }
+
+    textarea{
+        margin-top: 10px;
+    }
+
+    select{
+        margin:10px;
+        font-family: graduate;
+    }
+    
+
+}

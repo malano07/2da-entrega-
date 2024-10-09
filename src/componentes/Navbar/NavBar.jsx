@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (    
     <header>
-        <Link to="/"><img src="/public/img/logo mm7 fondo transparente.ico" alt="logo" /></Link>
+        <Link to="/"><img src="/public/img/logo mm7 fondo transparente.ico" alt="logo" className='img-nav'/></Link>
         <nav>
             <ul>
               <NavLink to="/categoria/3"><li><GiBasketballBasket /> Remeras</li></NavLink>
@@ -23,7 +23,7 @@ const Navbar = () => {
               <NavLink to="/contacto"><li><MdOutlineAlternateEmail />Contacto</li></NavLink>
             </ul>
         </nav>
-        <CartWidget/>        
+        <CartWidget />        
     </header>
   )
 }

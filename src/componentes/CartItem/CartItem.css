@@ -1,0 +1,24 @@
+.div-cartItem{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin: 5px;
+
+    p{
+        color:black;
+    }
+
+    button{
+        color:black;
+        font-family: graduate;
+    }
+
+}
+
+.img-cartItem{
+    height: 100%;
+}

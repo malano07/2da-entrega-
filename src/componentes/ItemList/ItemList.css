@@ -1,15 +1,18 @@
 /* ItemList.css */
 .contenedor-item {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
+    grid-template-columns:1fr 1fr ;
+    width: 100%;
+    
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    
   }
   
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .contenedor-item {
-      grid-template-columns: repeat(3, 1fr); /* 3 productos por fila en pantallas medianas y grandes */
+      grid-template-columns: 1fr; 
     }
   }
   

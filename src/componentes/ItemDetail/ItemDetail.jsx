@@ -11,7 +11,7 @@ function ItemDetail({ id, img, precio, descripcion, titulo, stock }) {
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
-    console.log("Productos agregados:" + cantidad);
+    
     const item = { id, img, titulo, precio, descripcion };
     agregarAlCarrito(item, cantidad);
     toast.success(`Producto agregado al carrito!`, {

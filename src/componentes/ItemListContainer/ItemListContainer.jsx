@@ -10,20 +10,13 @@ import { collection,getDocs,where,query, updateDoc } from 'firebase/firestore'
 
 function ItemListContainer() {
 
- 
   const [ productos,setProductos] = useState([])
   const [loading, setLoading] = useState (false)
-
   const {categoria}= useParams()
-
- 
-
-
   useEffect(()=>{
     const misproductos = categoria 
     ? query(collection(db, "productos"), where("categoria", "==", Number(categoria)))
     : collection(db, "productos");
-    
     setLoading(true)
     getDocs(misproductos)
     .then(res=>{      

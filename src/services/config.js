@@ -18,23 +18,3 @@ const app = initializeApp(firebaseConfig);
 export const db= getFirestore(app)
 
 
-
-
-// Initialize Firebase
-/*
-import {collection, doc, writeBatch} from "firebase/firestore"
-const subirProductos = async () => {
-    const batch = writeBatch(db)
-    const productosRef = collection(db, "inventrio")
-    misProductos.forEach((producto)=>{
-        const nuevoDoc = doc(productosRef) 
-        batch.set(nuevoDoc, producto)
-    })
-    try {
-        await batch.commit();
-        console.log("Productos subidos exitosamente")
-    } catch(error) {
-        console.log("Error subiendo productos:", error)
-    }
-}
-subirProductos()*/

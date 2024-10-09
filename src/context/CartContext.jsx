@@ -17,9 +17,7 @@ export const ProveedorCarrito = ({ children }) => {
   const [total, setTotal] = useState(TotalStorage);
   const [cantidadTotal, setCantidadTotal] = useState(cantidadEnStorage);
 
-  console.log(carrito);
-
-  const agregarAlCarrito = (item, cantidad) => {
+   const agregarAlCarrito = (item, cantidad) => {
     const existeProducto = carrito.find(prod => prod.item.id === item.id);
 
     const nuevoCarrito = existeProducto

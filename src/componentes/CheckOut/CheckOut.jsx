@@ -287,7 +287,7 @@ const CheckOut = () => {
                 {
                     ordenId && ordenData && (
                         <div className='div-orden'>
-                            <img src="public\img\logo mm7 fondo transparente.ico" alt="Logo MM7" />
+                            <img src="\img\logo mm7 fondo transparente.ico" alt="Logo MM7" />
                             <h2>¡Orden de compra exitosa!</h2>
                             <div>
                                 <h3>Resumen del Pedido:</h3>

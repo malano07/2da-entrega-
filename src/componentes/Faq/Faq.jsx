@@ -21,7 +21,7 @@ const FAQ = () => {
 
   return (
     <div className='faq-main'>
-      <img src="/public/img/logo mm7 fondo transparente.ico" alt="logo mm7" className='faq-img'/>
+      <img src="/img/logo mm7 fondo transparente.ico" alt="logo mm7" className='faq-img'/>
       <h1>FAQ! ¿Necesitas ayuda?</h1>
       <h3>No te preocupes, podemos Ayudarte!</h3>
 

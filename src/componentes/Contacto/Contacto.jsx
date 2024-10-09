@@ -55,7 +55,7 @@ export const Contacto = () => {
   return (
     <div className='contenedor_form'>
       <form className='form-contacto' onSubmit={manejadorFormulario}>
-        <img src="./public/img/logo mm7 fondo transparente.ico" alt="Logo" />
+        <img src="/img/logo mm7 fondo transparente.ico" alt="Logo" />
         <h1>Contacto</h1>
         <label htmlFor="causa">Motivo de su contacto:</label>
         <select id="causa" name="causa" onChange={(e) => setTitulo(e.target.value)} value={titulo}>

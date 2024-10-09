@@ -1,15 +1,15 @@
-import { initializeApp } from "firebase/app";
+ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB806tTzuSsYkwjYd6iqyP1w8pVXQi1ZbA",
-  authDomain: "mm7-tienda-urbana.firebaseapp.com",
-  projectId: "mm7-tienda-urbana",
-  storageBucket: "mm7-tienda-urbana.appspot.com",
-  messagingSenderId: "99974164264",
-  appId: "1:99974164264:web:8bb75abaeda8e9cbbcea1d"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId:import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 

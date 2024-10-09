@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
 import { GiBasketballBasket, GiHoodie } from "react-icons/gi"
 import { IoMdBasketball } from "react-icons/io";
